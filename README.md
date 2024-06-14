@@ -1,37 +1,38 @@
-DevSecOps Project: Deploy Netflix Clone on AWS Cloud using Jenkins
-Table of Contents
-Introduction
-Project Architecture
-Phase 1: Initial Setup and Deployment
-Launch EC2 (Ubuntu 22.04)
-Clone the Code
-Install Docker and Run the App Using a Container
-Build and Run Your Application Using Docker Containers
-Get the API Key
-Phase 2: Security
-Install SonarQube and Trivy
-SonarQube
-Install Trivy
-Integrate SonarQube and Configure
-Phase 3: CI/CD Setup
-Install Jenkins for Automation
-Install Necessary Plugins in Jenkins
-Configure Java and NodeJs in Global Tool Configuration
-SonarQube
-Create a Jenkins Webhook
-Install OWASP Dependency-Check Plugin
-Install Docker Tools and Docker Plugins
-Add DockerHub Credentials
-Phase 4: Monitoring
-Install Prometheus and Grafana
-Installing Prometheus
-Installing Node Exporter
-Configure Prometheus Plugin Integration
-Install Grafana
-Phase 5: Notification
-Implement Notification Services
-Phase 6: Kubernetes
-Create Kubernetes Cluster with Nodegroups
-Monitor Kubernetes with Prometheus
-Deploy Application with ArgoCD
-Conclusion
+# DevSecOps Project: Deploy Netflix Clone on AWS Cloud using Jenkins
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Project Architecture](#project-architecture)
+  - [Phase 1: Initial Setup and Deployment](#phase-1-initial-setup-and-deployment)
+    - [Launch EC2 (Ubuntu 22.04)](#launch-ec2-ubuntu-2204)
+    - [Clone the Code](#clone-the-code)
+    - [Install Docker and Run the App Using a Container](#install-docker-and-run-the-app-using-a-container)
+    - [Build and Run Your Application Using Docker Containers](#build-and-run-your-application-using-docker-containers)
+    - [Get the API Key](#get-the-api-key)
+  - [Phase 2: Security](#phase-2-security)
+    - [Install SonarQube and Trivy](#install-sonarqube-and-trivy)
+    - [SonarQube](#sonarqube)
+    - [Install Trivy](#install-trivy)
+    - [Integrate SonarQube and Configure](#integrate-sonarqube-and-configure)
+  - [Phase 3: CI/CD Setup](#phase-3-cicd-setup)
+    - [Install Jenkins for Automation](#install-jenkins-for-automation)
+    - [Install Necessary Plugins in Jenkins](#install-necessary-plugins-in-jenkins)
+    - [Configure Java and NodeJs in Global Tool Configuration](#configure-java-and-nodejs-in-global-tool-configuration)
+    - [SonarQube](#sonarqube)
+    - [Create a Jenkins Webhook](#create-a-jenkins-webhook)
+    - [Install OWASP Dependency-Check Plugin](#install-owasp-dependency-check-plugin)
+    - [Install Docker Tools and Docker Plugins](#install-docker-tools-and-docker-plugins)
+    - [Add DockerHub Credentials](#add-dockerhub-credentials)
+  - [Phase 4: Monitoring](#phase-4-monitoring)
+    - [Install Prometheus and Grafana](#install-prometheus-and-grafana)
+    - [Installing Prometheus](#installing-prometheus)
+    - [Installing Node Exporter](#installing-node-exporter)
+    - [Configure Prometheus Plugin Integration](#configure-prometheus-plugin-integration)
+    - [Install Grafana](#install-grafana)
+  - [Phase 5: Notification](#phase-5-notification)
+    - [Implement Notification Services](#implement-notification-services)
+  - [Phase 6: Kubernetes](#phase-6-kubernetes)
+    - [Create Kubernetes Cluster with Nodegroups](#create-kubernetes-cluster-with-nodegroups)
+    - [Monitor Kubernetes with Prometheus](#monitor-kubernetes-with-prometheus)
+    - [Deploy Application with ArgoCD](#deploy-application-with-argocd)
+- [Conclusion](#conclusion)
