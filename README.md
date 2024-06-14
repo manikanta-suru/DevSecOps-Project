@@ -36,3 +36,5 @@
     - [Monitor Kubernetes with Prometheus](#monitor-kubernetes-with-prometheus)
     - [Deploy Application with ArgoCD](#deploy-application-with-argocd)
 - [Conclusion](#conclusion)
+This project integrates DevSecOps practices to deploy a Netflix Clone on AWS. By following the phases outlined, you can set up a secure, automated, and monitored pipeline for deploying and maintaining your application.
+
